@@ -1,0 +1,61 @@
+const ProjectsDatabase = [
+    {
+        ProjectId : 1,
+        ProjectName : 'AlleyBot - An AI Friend to Talk With',
+        ProjectDescription: 'AlleyBot is a cutting-edge chatbot application developed using the Django framework. It integrates advanced AI algorithms to simulate engaging and realistic conversations, providing users with an interactive and user-friendly chatting experience. This project showcases my skills in Python, Django, and AI, demonstrating my ability to create intuitive and intelligent web applications.',
+        ProjectSkills : 'HTML5 · Python (Programming Language) · dajngo · Cascading Style Sheets (CSS) · JavaScript · SQLite · OpenAI Products',
+        GitLink : 'https://github.com/mohitsharma012/alleybot.git',
+        LiveLink : 'https://alleybot.onrender.com/',
+        img1 : 'project1_1.jpeg',
+        img2 : 'project1_2.jpeg',
+        img3 : 'project1_3.jpeg',       
+    },
+    {
+        ProjectId : 2,
+        ProjectName : 'BankSwift - A basic Banking System',
+        ProjectDescription: 'BankSwift is a modern and user-friendly banking system designed to streamline financial transactions and management. It offers essential banking functionalities such as account creation, fund transfers, transaction history, and account management. The system prioritizes security and efficiency, ensuring a seamless banking experience for users.',
+        ProjectSkills : 'HTML, CSS, JavaScript, Bootstrap, React',
+        GitLink : 'https://github.com/mohitsharma012/BankSwift.git',
+        LiveLink : 'https://bankswift.onrender.com/',
+        img1 : 'project2_1.jpg',
+        img2 : 'project2_2.jpg',
+        img3 : 'project2_3.jpg',        
+    },
+    {
+        ProjectId : 3,
+        ProjectName : '𝐕𝐨𝐭𝐞𝐗 - 𝐁𝐥𝐨𝐜𝐤𝐜𝐡𝐚𝐢𝐧-𝐁𝐚𝐬𝐞𝐝 𝐎𝐧𝐥𝐢𝐧𝐞 𝐕𝐨𝐭𝐢𝐧𝐠 𝐒𝐲𝐬𝐭𝐞𝐦',
+        ProjectDescription: 'VoteX represents a secure and innovative online voting platform leveraging blockchain technology. This system ensures tamper-proof records, user authentication, and stringent security measures, guaranteeing a transparent and confidential voting process.',
+        ProjectSkills : 'Ethereum · HTML5 · Python (Programming Language) · Django · JavaScript · Artificial Intelligence (AI) · Relational Databases',
+        GitLink : 'https://github.com/mohitsharma012/VoteX.git',
+        LiveLink : '',
+        img1 : 'project1_3.jpeg',
+        img2 : 'project1_2.jpeg',
+        img3 : 'project1_1.jpeg',        
+    },
+    {
+        ProjectId : 4,
+        ProjectName : '𝐑𝐮𝐝𝐞𝐓𝐫𝐚𝐝𝐞 – 𝐈𝐧𝐭𝐫𝐚𝐝𝐚𝐲 𝐓𝐫𝐚𝐝𝐢𝐧𝐠 𝐉𝐨𝐮𝐫𝐧𝐚𝐥 𝐒𝐲𝐬𝐭𝐞𝐦',
+        ProjectDescription: 'RudeTrade stands as an end-to-end database-focused portal meticulously designed for efficient trade registration, data organization, and comprehensive analysis of past trade data. This system provides a seamless platform for traders to record, manage, and scrutinize their trading activities.',
+        ProjectSkills : 'Bootstrap (Framework) · MySQL · HTML5 · Python (Programming Language) · CSS Flexbox · Django · JavaScript',
+        GitLink : 'https://github.com/mohitsharma012/RudeTrade.git',
+        LiveLink : '',
+        img1 : 'project3_1.jpeg',
+        img2 : 'project3_2.jpeg',
+        img3 : 'project3_3.jpeg',        
+    },
+    // {
+    //     ProjectId : ,
+    //     ProjectName : '',
+    //     ProjectDescription: '',
+    //     ProjectSkills : '',
+    //     GitLink : '',
+    //     LiveLink : '',
+    //     img1 : 'project1_1.jpeg',
+    //     img2 : 'project1_2.jpeg',
+    //     img3 : 'project1_3.jpeg',        
+    // },
+    
+   
+ 
+]
+export default ProjectsDatabase
