@@ -1,142 +1,19 @@
-body {
-  background-color: #fff;
-}
 
-.tittle {
+
+/* custome colors  */
+.baloo-paaji{
   font-family: "Baloo Paaji 2", sans-serif;
-  font-weight: 800;
+}
+.IndexHeaderBackground{
+  background-image: url('../src/assests/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+.francois-one-regular {
+  font-family: "Francois One", sans-serif;
+  font-weight: 400;
   font-style: normal;
 }
 
-.navbar {
-  position: fixed;
-}
-.navbar-brand {
-  margin: 0vh 82vh 0vh 0vh;
-}
-@media only screen and (max-width: 576px) {
-  .navbar-brand {
-    margin: 0vh 0vh 0vh 0vh;
-    font-size: 15rem;
-  }
-  .NavbarMenuBtn{
-    display: none;
-  }
-  .IndexHeaderImg{
-    display: none;
-  }
-  .IndexheaderTitle{
-    width: 100%;
-  }
-  .IndexheaderTitle h1{
-    font-size: 8vh;
-  }
-  .IndexheaderTitle button{
-    font-size: 9vh;
-  }
-
-}
-
-.white {
-  color: white;
-}
-.fs-300 {
-  font-size: 6.5rem;
-  font-weight: 900;
-}
-.ms-53 {
-  margin-left: 65vh;
-}
-.pt-28 {
-  padding-top: 28vh;
-}
-span,
-p {
-  font-family: inherit;
-  color: #5c5c5cd1;
-  font-size: 17px;
-}
-.Portfolioimage {
-  display: block;
-  width: 50vh;
-  height: 25vh;
-}
-
-.image-container {
-  position: relative;
-  display: inline-block; /* Ensure container wraps around the image */
-  width: auto;
-}
-
-.overlayText {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
-  color: white;
-  font-size: 1.3rem;
-  text-align: center;
-  padding: 20px;
-  box-sizing: border-box;
-  opacity: 0;
-  transition: opacity 0.3s ease; /* Smooth transition for opacity change */
-}
-
-.image-container:hover .overlayText {
-  opacity: 2; /* Show overlay on hover */
-}
-
-
-
-.IndexHeader {
-  background: url(../public/IndexHeaderBackground.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; /* or top, bottom, left, right */
-
-  height: 100vh;
-  z-index: 0;
-}
-.purple {
-  color: #695aa6;
-}
-.bg-purple {
-  background-color: #695aa6;
-}
-.bg-purple-hover:hover {
-  background-color: #5d4f96;
-}
-.font-family-times {
-  font-family: "SF-Pro-Text";
-}
-.icon-border {
-  border: 1px solid #ffffff;
-  border-radius: 50%;
-}
-.social-btn {
-  padding: 6px 14px;
-}
-
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: -webkit-linear-gradient(
-    bottom,
-    #fff 0%,
-    rgba(105, 90, 166, 0.35) 99%,
-    rgba(105, 90, 166, 0.5) 100%
-  );
-  background-image: linear-gradient(
-    to top,
-    #fff 0%,
-    rgba(105, 90, 166, 0.35) 99%,
-    rgba(105, 90, 166, 0.5) 100%
-  );
-  z-index: 0;
-}

@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 
 from pathlib import Path
 import os
-
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -21,12 +20,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-hx30k_a1n*&)2$lb!(ndm!75h2g=rnp_93h=(#q*go00v=+f^u'
+SECRET_KEY = 'django-insecure-jdkzg*lpi)j=sg8m-k#qfsh9z%327uy74q$5%=+9r6)jg@vr6#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -55,7 +54,7 @@ ROOT_URLCONF = 'mohitji.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, '../Frontend/build/')],
+        'DIRS': [os.path.join(BASE_DIR, 'build')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -117,38 +116,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 
-
-
-
-
-
-import os
-
-# Define BASE_DIR to point to the root directory of your Django project
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
-# Define STATIC_URL to specify the URL prefix for static files
 STATIC_URL = '/static/'
 
-# Define STATIC_ROOT as the directory where static files will be collected during deployment
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-
-# Define STATICFILES_DIRS to specify additional directories from which to collect static files
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, '../Frontend/build/static'),  # React build static files
-    os.path.join(BASE_DIR, '../Frontend/build/images/'),  # Additional image directory
+    os.path.join(BASE_DIR, 'build/static'),  # Specify the directory for static files
 ]
-
-
-
-
-
-
-
-
-
-
-
 
 
 # Default primary key field type
