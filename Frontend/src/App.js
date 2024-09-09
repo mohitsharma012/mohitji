@@ -4,7 +4,6 @@ import React, { useState } from "react";
 
 // importing components
 import { IndexComponent } from "./Components/IndexComponent";
-import Footer from "./Components/Footer";
 
 // Importing Pages
 import ProjectPage from "./pages/ProjectPage";
@@ -51,7 +50,6 @@ function App() {
           {/* Add more routes for other pages */}
         </Routes>
       </BrowserRouter>
-      <Footer />
     </>
 
   );
