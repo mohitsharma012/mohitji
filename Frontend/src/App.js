@@ -54,10 +54,6 @@ function App() {
       <Footer />
     </>
 
-    // <>
-    //   <Navbar/>
-    //   <IndexComponent ProjectsDatabase={ProjectsDatabase} PortfolioPage={PortfolioPage} />
-    // </>
   );
 }
 
