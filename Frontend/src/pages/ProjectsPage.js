@@ -43,7 +43,7 @@ export default function ResumePage({ ProjectsDatabase }) {
               <Link
                 to={`/project/${project.ProjectId}`}
                 className="w-full flex flex-col md:flex-row md:gap-5 m-auto  p-4 border-b-2 border-gray-200 hover:bg-gray-200"
-                onClick={() => PortfolioPage(project.ProjectId)}
+                // onClick={() => PortfolioPage(project.ProjectId)}
                 key={index}
               >
                 <img

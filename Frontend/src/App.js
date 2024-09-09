@@ -4,7 +4,6 @@ import React, { useState } from "react";
 
 // importing components
 import { IndexComponent } from "./Components/IndexComponent";
-import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 
 // Importing Pages
@@ -41,10 +40,13 @@ function App() {
             path="/project/:id"
             element={<ProjectPage ProjectsDatabase={ProjectsDatabase} />}
           />
-          <Route path = "/resume" element={<ResumePage/>}/>
-          <Route path = "/projects" element={<ProjectsPage ProjectsDatabase={ProjectsDatabase}/>}/>
-          <Route path = "/about" element={<AboutPage/>}/>
-          <Route path = "/contact" element={<ContactMePage/>}/>
+          <Route path="/resume" element={<ResumePage />} />
+          <Route
+            path="/projects"
+            element={<ProjectsPage ProjectsDatabase={ProjectsDatabase} />}
+          />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/contact" element={<ContactMePage />} />
 
           {/* Add more routes for other pages */}
         </Routes>

@@ -62,12 +62,12 @@ function Navbar() {
             >
               PROJECTS
             </a>
-            <a
+            {/* <a
               href="/resume"
               class="mx-1.5 text-white rounded-2xl px-3 sm:px-5 py-1.5 hover:bg-gray-100 hover:text-black"
             >
               RESUME
-            </a>
+            </a> */}
             <a
               href="/about"
               class="mx-1.5 text-white rounded-2xl px-3 sm:px-5 py-1.5 hover:bg-gray-100 hover:text-black"

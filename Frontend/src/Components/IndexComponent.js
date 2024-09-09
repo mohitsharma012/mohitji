@@ -51,20 +51,20 @@ export const IndexComponent = ({ ProjectsDatabase, PortfolioPage }) => {
         {/* index header section  */}
         <section className=" min-h-[100vh] IndexHeaderBackground flex">
           <div className="m-auto text-center">
-            <h2 className="text-gray-400 mb-3 md:text-5xl text-4xl">
+            <h2 className="text-gray-400 mb-3 md:text-3xl text-3xl">
               HI, I AM MOHIT
             </h2>
             <div className="">
-              <h3 className="text-gray-300 md:text-[7rem] text-6xl font-bold md:leading-[5.8rem] font-mono francois-one-regular">
+              <h3 className="text-gray-300 md:text-[6rem] text-6xl font-bold md:leading-[5.0rem] font-mono francois-one-regular">
                 Full Stack Web{" "}
               </h3>
-              <h3 className="text-gray-300 md:text-[7rem] text-6xl font-bold md:leading-[5.8rem] font-mono francois-one-regular">
+              <h3 className="text-gray-300 md:text-[6rem] text-6xl font-bold md:leading-[5.0rem] font-mono francois-one-regular">
                 Developer
               </h3>
             </div>
-            <p className="text-gray-400 md:text-lg py-8">
+            <p className="text-gray-400 md:text-lg w-full px-3 sm:w-2/3 mx-auto py-5 pb-10">
               Let's turn your visionary concepts into digital wonders, crafting
-              each <br /> element with expertise and care.
+              each  element with expertise and care.
             </p>
 
             <a href="/contact" className="text-white  outline outline-offset-8 outline-white rounded-3xl hover:bg-gray-300 hover:text-black bg-[#ffffff2e] md:px-20 px-16 py-2 ">
@@ -74,47 +74,47 @@ export const IndexComponent = ({ ProjectsDatabase, PortfolioPage }) => {
           </div>
         </section>
         {/* index about section  */}
-        <section className="flex flex-col sm:flex-row container sm:px-0 xl:px-60 m-auto  my-5 md:my-2">
-          <div className="flex-col row hidden sm:block md:mx-8 sm:mt-20 md:mt-0">
-            <div className="hover:shadow-xl  border-2 rounded-xl my-3 sm:my-10 md:w-[60vh] sm:w-60  flex py-5 md:py-4">
+        <section className="flex flex-col gap-2 sm:flex-row container md:w-4/5 lg:w-3/4 xl:w-1/2 m-auto  my-0 md:my-1">
+          <div className="flex-col w-full sm:w-1/2 row hidden sm:block  sm:mt-20 md:mt-12">
+            <div className="hover:shadow-xl  border-2 w-full rounded-xl my-3 sm:my-2    flex py-5 md:py-2">
               <div className="  m-auto   flex align-middle  ">
                 <img
                   src={designIcon}
                   alt="img"
-                  className=" w-[6vh] md:w-[10vh] md:scale-75"
+                  className=" w-[6vh] md:w-[9vh] md:scale-75"
                 />
                 <div className="my-auto ms-5">
-                  <h2 className="w-auto align-middle m-auto text-xl sm:text-2xl font-serif ">
+                  <h2 className="w-auto align-middle m-auto text-xl sm:text-xl font-serif ">
                     {" "}
                     We Design
                   </h2>
                 </div>
               </div>
             </div>
-            <div className="hover:shadow-xl  border-2 rounded-xl my-3 sm:my-10 md:w-[60vh] sm:w-60 flex py-5 md:py-4">
+            <div className="hover:shadow-xl  border-2 w-full rounded-xl my-3 sm:my-2   flex py-5 md:py-2">
               <div className="  m-auto   flex align-middle  ">
                 <img
                   src={buildIcon}
                   alt="img"
-                  className=" w-[6vh] md:w-[10vh] md:scale-75"
+                  className=" w-[6vh] md:w-[9vh] md:scale-75"
                 />
                 <div className="my-auto ms-5">
-                  <h2 className="w-auto align-middle m-auto text-xl sm:text-2xl font-serif ">
+                  <h2 className="w-auto align-middle m-auto text-xl sm:text-xl font-serif ">
                     {" "}
                     We Build
                   </h2>
                 </div>
               </div>
             </div>
-            <div className="hover:shadow-xl  border-2 rounded-xl my-3 sm:my-10 md:w-[60vh] sm:w-60 flex py-5 md:py-4">
+            <div className="hover:shadow-xl  border-2 w-full rounded-xl my-3 sm:my-2   flex py-5 md:py-2">
               <div className="  m-auto   flex align-middle  ">
                 <img
                   src={deployIcon}
                   alt="img"
-                  className=" w-[6vh] md:w-[10vh] md:scale-75"
+                  className=" w-[6vh] md:w-[9vh] md:scale-75"
                 />
                 <div className="my-auto ms-5">
-                  <h2 className="w-auto align-middle m-auto text-xl sm:text-2xl font-serif ">
+                  <h2 className="w-auto align-middle m-auto text-xl sm:text-xl font-serif ">
                     {" "}
                     We Deploy
                   </h2>
@@ -122,11 +122,11 @@ export const IndexComponent = ({ ProjectsDatabase, PortfolioPage }) => {
               </div>
             </div>
           </div>
-          <div className="md:mx-8 mx-5 my-10">
-            <h3 className="md:text-5xl text-4xl font-semibold">
+          <div className="sm:w-1/2  my-10">
+            <h3 className="md:text-4xl text-4xl font-semibold">
               What do I help?
             </h3>
-            <p className="md:text-2xl text-xl text-gray-700 leading-10 md:my-10 ">
+            <p className="md:text-xl text-lg text-gray-700 leading-9 md:my-4 ">
               I'm here to assist you in finding solutions and resolving your
               web-related challenges effectively. Utilizing process design, I
               specialize in crafting digital products tailored to your needs.{" "}
@@ -139,7 +139,7 @@ export const IndexComponent = ({ ProjectsDatabase, PortfolioPage }) => {
         </section>
         {/* index experience section  */}
         <section class="text-gray-600 body-font lg:mx-24 xl:mx-62">
-          <div class="container flex flex-col gap-5  px-4 py-0 mx-auto">
+          <div class="container flex flex-col gap-2  px-4 py-0 mx-auto">
             {/* experience heading  */}
             <div class="flex flex-col text-center w-full ">
               <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 ">
@@ -150,7 +150,7 @@ export const IndexComponent = ({ ProjectsDatabase, PortfolioPage }) => {
             <div class="flex gap-5 flex-wrap m-auto">
               <div class=" flex flex-col lg:w-full m-auto lg:mx-32 border-gray-200 border-4 px-4 py-4 hover:shadow-xl rounded-lg">
                 <div className="flex flex-col lg:flex-row  m-auto my-auto">
-                  <h2 class="text-gray-900 text-center lg:w-1/4  text-xl lg:mr-10 m-auto font-medium">
+                  <h2 class="text-gray-900 text-center lg:w-1/4  text-lg lg:mr-10 m-auto font-medium">
                     Programming Languages
                   </h2>
                   <div className="flex flex-wrap mt-5 lg:mt-0 lg:w-3/4 gap-4">
@@ -192,7 +192,7 @@ export const IndexComponent = ({ ProjectsDatabase, PortfolioPage }) => {
             <div class="flex gap-5 flex-wrap m-auto">
               <div class=" flex flex-col lg:w-full m-auto lg:mx-32 border-gray-200 border-4 px-4 py-4 hover:shadow-xl rounded-lg">
                 <div className="flex flex-col lg:flex-row  m-auto my-auto">
-                  <h2 class="text-gray-900 text-center lg:w-1/4 text-xl lg:mr-10 m-auto font-medium">
+                  <h2 class="text-gray-900 text-center lg:w-1/4 text-lg lg:mr-10 m-auto font-medium">
                     Framework & Libraries
                   </h2>
                   <div className="flex flex-wrap mt-5 lg:mt-0 lg:w-3/4 gap-4">
@@ -234,7 +234,7 @@ export const IndexComponent = ({ ProjectsDatabase, PortfolioPage }) => {
             <div class="flex gap-5 flex-wrap m-auto">
               <div class=" flex flex-col lg:w-full m-auto lg:mx-32 border-gray-200 border-4 px-4 py-4 hover:shadow-xl rounded-lg">
                 <div className="flex flex-col lg:flex-row  m-auto my-auto">
-                  <h2 class="text-gray-900 text-center lg:w-1/4 text-xl lg:mr-10 m-auto font-medium">
+                  <h2 class="text-gray-900 text-center lg:w-1/4 text-lg lg:mr-10 m-auto font-medium">
                     Database Management{" "}
                   </h2>
                   <div className="flex flex-wrap mt-5 lg:mt-0 lg:w-3/4 gap-4">
@@ -264,9 +264,9 @@ export const IndexComponent = ({ ProjectsDatabase, PortfolioPage }) => {
             </div>
             {/*  Version Control  */}
             <div class="flex gap-5 flex-wrap m-auto">
-              <div class=" flex flex-col lg:w-full  lg:mx-32 border-gray-200 border-4 px-14 py-4 hover:shadow-lg rounded-lg">
-                <div className="flex flex-col lg:flex-row  m-auto my-auto">
-                  <h2 class="text-gray-900  lg:w-1/4 text-xl lg:mr-10 m-auto font-medium">
+              <div class=" flex flex-col w-full  lg:mx-32 border-gray-200 border-4 px-14 py-4 hover:shadow-lg rounded-lg">
+                <div className="flex w-full flex-col lg:flex-row  m-auto my-auto">
+                  <h2 class="text-gray-900  lg:w-1/4 text-lg lg:mr-10 m-auto font-medium">
                     Version Control
                   </h2>
                   <div className="flex flex-wrap mt-5 lg:mt-0 lg:w-3/4 gap-4">
